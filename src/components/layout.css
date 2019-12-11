@@ -8,6 +8,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.spacious{
+  padding: 10px;
+  margin: 10px;
+  background-color: #EEE;
+  border: 1px solid #666;
+}
 article,
 aside,
 details,
