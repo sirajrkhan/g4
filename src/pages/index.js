@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
+import 'jquery/dist/jquery'
 import 'bootstrap/dist/css/bootstrap.min.css'
-// import 'bootstrap/dist/js/bootstrap.min'
-import 'bootstrap.native/dist/bootstrap-native-v4'
+import 'bootstrap/dist/js/bootstrap.min'
 import Button from 'react-bootstrap/Button';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
