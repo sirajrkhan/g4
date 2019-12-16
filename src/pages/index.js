@@ -1,22 +1,21 @@
 import React from "react"
 import { Link } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.min'
+// import 'bootstrap/dist/js/bootstrap.min'
+import 'bootstrap.native/dist/bootstrap-native-v4'
 import Button from 'react-bootstrap/Button';
-
 import Layout from "../components/layout"
-// import Image from "../components/image"
 import SEO from "../components/seo"
-// import Buttons from "../components/buttons"
 import Cards from "../components/cards"
 import Navs from "../components/navs"
+// import Buttons from "../components/buttons"
+// import Image from "../components/image"
 
 const IndexPage = () => (
   <Layout>
     <Navs/>
     <SEO title="Home" />
     {/* <h1>Hello Mr. Siraj!!</h1> */}
-    {/* <p>Welcome to your new Gatsby site.</p> */}
     {/* <p>Now go build something great.</p> */}
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       {/* <Image /> */}
