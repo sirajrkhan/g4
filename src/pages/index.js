@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import 'jquery/dist/jquery'
+import 'jquery/dist/jquery.min'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min'
 import Button from 'react-bootstrap/Button';
@@ -25,7 +25,7 @@ const IndexPage = () => (
     <Cards/>
 
     <Button variant="dark">
-      <Link to="/page-2/">Page 2</Link>  
+      <Link to="/page-2/">Page 2 ko Jao</Link>  
       </Button> | 
     | <Button variant="dark">
       <Link to="/page-3/">Page 3</Link>  
