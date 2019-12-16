@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-import 'jquery/dist/jquery.min'
+// import 'jquery/dist/jquery.min'
+// import 'bootstrap/dist/js/bootstrap.min'
+import 'bootstrap.native/dist/bootstrap-native-v4'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.min'
 import Button from 'react-bootstrap/Button';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -25,7 +26,7 @@ const IndexPage = () => (
     <Cards/>
 
     <Button variant="dark">
-      <Link to="/page-2/">Page 2 ko Jao</Link>  
+      <Link to="/page-2/">Page 2</Link>  
       </Button> | 
     | <Button variant="dark">
       <Link to="/page-3/">Page 3</Link>  
