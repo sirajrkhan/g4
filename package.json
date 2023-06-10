@@ -8,7 +8,7 @@
     "jquery": "^3.4.1",
     "bootstrap": "^4.4.1",
     "bootstrap.native": "^2.0.27",
-    "gatsby": "^2.18.4",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-manifest": "^2.2.30",
     "gatsby-plugin-offline": "^3.0.24",
